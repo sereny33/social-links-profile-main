@@ -1,13 +1,13 @@
 body {
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2.5em;
-  background-color: var(--Grey-900);
-  color: var(--White);
   padding: 1em;
+  color: var(--White);
+  text-align: center;
+  background-color: var(--Grey-900);
 }
 
 .container {
@@ -18,17 +18,17 @@ body {
   gap: 25px;
   width: clamp(300px, 40vw, 385px) ;
   min-height: 610px;
-  background-color: var(--Grey-800);
   border-radius: 10px;
   padding: 2.5em;
+  background-color: var(--Grey-800);
 }
 
 .profile {
   display: flex;
   flex-direction: column;
-  gap: 1em;
   justify-content: center;
   align-items: center;
+  gap: 1em;
 }
 
 .profile p:last-child {
@@ -36,14 +36,14 @@ body {
 }
 
 .avatar {
-  height: 6em;
   width: auto;
+  height: 6em;
   border-radius: 100%;
 }
 
 .profile__name {
-  font-size: 24px;
   font-weight: 700;
+  font-size: 24px;
 }
 
 .profile__location {
@@ -55,25 +55,25 @@ body {
 }
 
 .links__list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 1em;
+  list-style: none;
 }
 
 .links__list-item {
-  background-color: var(--Grey-700);
   border-radius: 10px;
+  background-color: var(--Grey-700);
 }
 
 .link {
   display: inline-block;
   width: 100%;
   height: 100%;
-  text-decoration: none;
-  padding: 18px 0;
   border-radius: 10px;
+  padding: 18px 0;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .link:hover {
